@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>About Abdoon</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="container">
+
+    <header class="flexbox py-15" id="header">
+        <div class="col-4 p-15" id="logo"><a href=""><img src="logo.png" width="50" alt="My Logo"></a></div>
+        <div class="col-4 p-15 text_center">
+            <p class="m-0 p-0">Welcome, Abdoon's shopping cart!</p>
+        </div>
+        <div class="col-4 p-15 text_right">
+            <button class="btn"> Logout</button>
+        </div>
+    </header>
+
+    <div class="row" id="content">
+        <div class="p-15">
+            <h4>Product list</h4>
+            <table>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th class="text_center">Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>iPhone</td>
+                    <td>In stock</td>
+                    <td>$1000</td>
+                    <td class="text_center action_items">
+                        <img src="edit.png" width="28" alt="Edit Item">
+                        <img src="delete.png" width="23" alt="Delete Item" title="Delete Item" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>BMW</td>
+                    <td>In stock</td>
+                    <td>$100000</td>
+                    <td class="text_center action_items">
+                        <img src="edit.png" width="28" alt="Edit Item">
+                        <img src="delete.png" width="23" alt="Delete Item" title="Delete Item" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>Headphone</td>
+                    <td>In stock</td>
+                    <td>$10</td>
+                    <td class="text_center action_items">
+                        <img src="edit.png" width="28" alt="Edit Item" title="Edit Item">
+                        <img src="delete.png" width="23" alt="Delete Item" title="Delete Item">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="p-15">
+            <h4>Your shopping cart</h4>
+            <table>
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th class="text_center">Quantity</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>iPhone</td>
+                    <td>$1000</td>
+                    <td>$5000</td>
+                    <td class="text_center"><input type="number" value="5"></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Headphone</td>
+                    <td>$10</td>
+                    <td>$100</td>
+                    <td class="text_center"><input type="number" value="10"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+    <footer class="row" id="footer">
+        <div class="flexbox">
+            <div class="col-4 text_center">
+                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fabir1006.github.io%2Fcs472_assignments%2FLab3%2Findex.html">
+                    <img src="htmlchecker.png" alt="html validator" width="150">
+                </a>
+            </div>
+            <div class="col-4 text_center">
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabir1006.github.io%2Fcs472_assignments%2FLab3%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                    <img src="css_checker.png" alt="css validator" width="150">
+                </a>
+            </div>
+            <div class="col-4 text_center">
+                <p>@copyright all right reserved 2024</p>
+            </div>
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>
