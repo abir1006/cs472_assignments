@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Workshop registration form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="container">
+
+    <header class="py-15" id="header">
+    </header>
+
+    <div id="workshop">
+
+        <form id="registration_form" action="#">
+            <div class="form_header">
+                <div class="form_title p-15">Workshop registration <span>More Actions &#9662;</span></div>
+                <p class="p-15 m-0">
+                    <a href="#" class="underline_text">Register now while seats are available!</a>
+                </p>
+            </div>
+            <div class="form_body p-15">
+                <div class="flexbox">
+                    <div class="col-6 pr-15">
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">First name <span>*</span></div>
+                            <div class="input_field col-6">
+                                <input type="text" name="first_name">
+                            </div>
+                        </div>
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">Last name <span>*</span></div>
+                            <div class="input_field col-6">
+                                <input type="text" name="last_name">
+                            </div>
+                        </div>
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">Company/ Institution <span>*</span></div>
+                            <div class="input_field col-6">
+                                <input type="text" name="company">
+                            </div>
+                        </div>
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">Address <span>*</span></div>
+                            <div class="input_field col-6">
+                                <textarea name="address"></textarea>
+                            </div>
+                        </div>
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">City</div>
+                            <div class="input_field col-6">
+                                <input type="text" name="city">
+                            </div>
+                        </div>
+
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">State/ Province/ Region</div>
+                            <div class="input_field col-6">
+                                <select name="state">
+                                    <option value="">-Select-</option>
+                                    <option value="IA"> IOWA</option>
+                                    <option value="CA"> California</option>
+                                    <option value="NY"> New york</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">Country</div>
+                            <div class="input_field col-6">
+                                <select name="state">
+                                    <option value="">-Select-</option>
+                                    <option value="us"> USA</option>
+                                    <option value="bd"> Bangladesh</option>
+                                    <option value="ca"> Canada</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">Email <span>*</span></div>
+                            <div class="input_field col-6">
+                                <input type="text" name="email">
+                            </div>
+                        </div>
+
+                        <div class="form_control mb-30 flexbox">
+                            <div class="input_label py-5 col-6">Phone <span>*</span></div>
+                            <div class="input_field col-6">
+                                <input type="text" name="phone">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 pl-15">
+                        <div class="form_control mb-30">
+                            <p class="px-15 py-5 m-0">
+                                <a href="#" class="underline_text">Lunch</a>
+                            </p>
+                        </div>
+                        <div class="form_control mb-30 px-15 flexbox">
+                            <div class="input_label py-5 col-6">Meal preference</div>
+                            <div class="input_field col-6">
+                                <select name="mp">
+                                    <option>Vegetarian</option>
+                                    <option>Chicken</option>
+                                    <option>Meat</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form_control mb-30">
+                            <p class="px-15 py-5 m-0">
+                                <a href="#" class="underline_text">Payment Details</a>
+                            </p>
+                        </div>
+                        <div class="form_control mb-30 px-15 flexbox">
+                            <div class="input_label py-5 col-6">Payment Mode</div>
+                            <div class="input_field col-6">
+                                <div class="form_control">
+                                    <label for="cash"><input id="cash" type="checkbox"> Cash </label>
+                                </div>
+                                <div class="form_control">
+                                    <label for="check"><input id="check" type="checkbox"> Check </label>
+                                </div>
+                                <div class="form_control">
+                                    <label for="demand_draft"><input id="demand_draft" type="checkbox"> Demand Draft
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_control mb-30 px-15 flexbox">
+                            <div class="input_label py-5 col-6">DD/ Check no.</div>
+                            <div class="input_field col-6">
+                                <input type="text" name="dd">
+                            </div>
+                        </div>
+                        <div class="form_control mb-30 px-15 flexbox">
+                            <div class="input_label py-5 col-6">Drawn On (Bank Name)</div>
+                            <div class="input_field col-6">
+                                <input type="text" name="drawn">
+                            </div>
+                        </div>
+
+                        <div class="form_control mb-30 px-15 flexbox">
+                            <div class="input_label py-5 col-6">Payable At</div>
+                            <div class="input_field col-6">
+                                <input type="text" name="payable">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form_footer">
+                <button class="btn">Submit</button>
+                <button class="btn">Reset</button>
+            </div>
+
+        </form>
+
+    </div>
+
+
+    <footer class="row" id="footer">
+        <div class="flexbox">
+            <div class="col-6 text_center">
+                <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fabir1006.github.io%2Fcs472_assignments%2FLab4%2Findex.html">
+                    <img src="htmlchecker.png" alt="html validator" width="150">
+                </a>
+            </div>
+            <div class="col-6 text_center">
+                <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabir1006.github.io%2Fcs472_assignments%2FLab4%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                    <img src="css_checker.png" alt="css validator" width="150">
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>
