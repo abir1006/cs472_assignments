@@ -205,9 +205,9 @@ table tr th {
 }
 
 input[type=text] {
-    width: 100%;
+    width: 97%;
     height: 20px;
-    padding: 5px 0;
+    padding: 5px;
     border: 1px solid #d8d8d8;
 }
 
@@ -219,18 +219,16 @@ input[type=text] {
     color: #f00;
 }
 
-select, textarea {
+select {
+    height: 30px;
     width: 100%;
 }
 
-select {
-    height: 30px;
-}
-
 textarea {
+    width: 97%;
     height: 150px;
     border: 1px solid #d8d8d8;
-    padding: 5px 0;
+    padding: 5px;
 }
 
 .form_footer {

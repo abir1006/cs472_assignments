@@ -82,14 +82,14 @@
                         <div class="form_control mb-30 flexbox">
                             <div class="input_label py-5 col-6">Email <span>*</span></div>
                             <div class="input_field col-6">
-                                <input type="text" name="email">
+                                <input type="text" name="email" pattern="[a-z0-9._+\-]+@[a-z0-9.\-]+\.[a-z]{2,3}">
                             </div>
                         </div>
 
                         <div class="form_control mb-30 flexbox">
                             <div class="input_label py-5 col-6">Phone <span>*</span></div>
                             <div class="input_field col-6">
-                                <input type="text" name="phone">
+                                <input type="text" name="phone" pattern="[0-9]+">
                             </div>
                         </div>
                     </div>
@@ -153,8 +153,8 @@
             </div>
 
             <div class="form_footer">
-                <button class="btn">Submit</button>
-                <button class="btn">Reset</button>
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btn">Reset</button>
             </div>
 
         </form>
