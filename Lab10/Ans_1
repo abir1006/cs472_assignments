@@ -1,0 +1,10 @@
+Node has 7-6 callbacks queues below are name and examples:
+
+1) Timer - calls when setTimeout & setInterval API invokes
+2) I/O - calls when Read/ Write file
+3) Polling - calls when receiving incoming requests, connections, data etc.
+4) Check - calls when setImmediate API invokes
+5) Close - calls when Socket on close, file closing etc
+6) idle, prepare( only used internally )
+7) nextTick- is a global nodejs native API, calls after each operations of queues executes.
+8) Promise
