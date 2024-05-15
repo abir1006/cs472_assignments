@@ -1,0 +1,15 @@
+{
+  "name": "Express JS App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
