@@ -1,0 +1,36 @@
+.container {
+    max-width: 1280px;
+}
+.content_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content_center .login_form {
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.action_column {
+    text-align: center;
+}
+
+.action_column i {
+    cursor: pointer;
+}
+
+.action_column i.icon_disable {
+    cursor: default;
+    color: lightgray;
+}
+
+.field_error {
+    border: 1px solid red;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Music</title>
+    <link href="./bs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./fontawesome-6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header class="logo py-5">
+        <div class="float-start">
+            My Logo
+            <i class="fa fa-music"></i>
+        </div>
+        <div class="float-end">
+            <a href="" id="logout">
+                <i class="fa fa-sign-out-alt" aria-hidden="true"></i> Logout
+            </a>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <h4 class="mb-3 py-2">Songs you may be interested:</h4>
+            <table class="table table-responsive mb-5">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Released Date</th>
+                    <th scope="col" class="action_column">Actions</th>
+                </tr>
+                </thead>
+                <tbody id="music_list">
+                </tbody>
+            </table>
+
+            <h4 class="mb-3 py-2">Your playlist:</h4>
+            <table class="table table-responsive">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Title</th>
+                    <th scope="col" class="action_column">Actions</th>
+                </tr>
+                </thead>
+                <tbody id="playlist">
+                </tbody>
+            </table>
+
+        </div>
+    </section>
+
+
+</div>
+<script src="./js/main.js"></script>
+</body>
+</html>
